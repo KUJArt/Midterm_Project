@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website Design</title>
+        
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="about.html" target="_blank">About</a>
+                <a href="services.html" target="_blank">Services</a>
+                <a href="portfolio.html" target="_blank">Portfolio</a>
+                <a href="challenges.html" target="_blank">Challenges & Learnings</a>
+                <a href="future-plans.html" target="_blank">Future Plans</a>
+                <a href="resume.html" target="_blank">Resume</a>
+                <a href="contact.html" target="_blank">Contact</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, It's me</h3>
+                <h1>Kurt Jason</h1>
+                <h3>And I'm a <span>Web Developer</span></h3>
+                <p>A web developer that is adept in using contemporary technologies like HTML, CSS, JavaScript, 
+                    and different frameworks to create dynamic and responsive websites. 
+                    Committed to providing high-performance online solutions with a focus on accessibility, functionality, 
+                    and user experience. acquiring new skills and adjusting to emerging trends in order to deliver 
+                    creative digital experiences.
+                </p>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="profile.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="about.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>"Building the web, one pixel at a time."</h3>
+                <p>"Hello! My name is Kurt Jason Apun. I am a third-year Computer Science student who enjoys web
+                    designing. I like making websites that are simple, clean, and easy to use. I know how to work with
+                    HTML, CSS, and JavaScript, and I always try to learn new things to get better.
+                    I am a creative and hardworking person. I enjoy solving problems and finding new ideas.
+                    I believe in being honest, doing my best, and always improving myself. In my free time,
+                    I like drawing, playing games, and spending time outdoors.
+                    I come from a small, supportive family. My parents taught me to work hard, stay kind,
+                    and follow my dreams. Thanks to them, I have the courage to do what I love today."</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Services</span></h2> 
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Acquired Skills</h3>
+                    <p>Web Design (HTML, CSS, JavaScript)
+                        Basic Graphic Design (Canva, Figma)
+                        Responsive Web Development
+                        Problem-Solving and Debugging
+                        Teamwork and Communication Skills
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxs-paint' ></i>
+                    <h3>Attended Trainings</h3>
+                    <p>As of now, I have not attended any formal trainings related to my course.
+                        However, I continue to learn through self-study, online tutorials,
+                        and personal projects to improve my skills.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-bar-chart-alt' ></i>
+                    <h3>Acquired Certificates</h3>
+                    <p>Computer Literacy Training Program - Adamson University
+                        Computer System Servicing NC II - TESDA at International Electronics and
+                        Technical Institute (Las Piñas), Inc.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <i class='bx bxl-html5'></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-box">
+                    <i class='bx bxl-css3'></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-box">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="portfolio2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Simple Multi-Auth List</h4>
+                        <p>A plain list creator that includes different logins that was created using MongoDB and vanilla PHP</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="portfolio1.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Pet Shop</h4>
+                        <p>Pets in need of adoption are connected to loving homes through Adopting Pet Shop. 
+                            We provide a range of animals prepared for their permanent homes, from energetic puppies 
+                            to adorable kittens, along with the tools and assistance needed for a seamless transfer.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this after the Skills or Portfolio section, before Contact -->
+
+<section class="challenges" id="challenges">
+    <h2 class="heading">Challenges & <span>Learnings</span></h2>
+    <div class="challenges-content">
+        <p>Throughout my journey as a web developer, I faced challenges like debugging complex codes,
+            staying updated with rapidly evolving technologies, and balancing multiple projects while studying. 
+            Each challenge taught me perseverance, attention to detail, and the value of continuous learning. 
+            Mistakes became stepping stones, helping me improve my coding logic, design sense, and problem-solving skills.</p>
+    </div>
+</section>
+
+<section class="future-plans" id="future-plans">
+    <h2 class="heading">Future <span>Plans</span></h2>
+    <div class="future-plans-content">
+        <p>In the future, I aim to specialize in full-stack development and explore emerging fields like AI
+            integration and cloud computing. 
+            I plan to attend tech conferences, earn certifications, and build a professional portfolio
+            showcasing advanced projects. 
+            Ultimately, my dream is to establish my own tech startup that empowers businesses with creative
+            and functional digital solutions.</p>
+    </div>
+</section>
+
+<section class="resume" id="resume">
+    <h2 class="heading">My <span>Resume</span></h2>
+    <div class="resume-content">
+        <p>You can view or download my resume to learn more about my educational background, skills, and work experiences.</p>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+</section>
+
+        
+
+        <section class="contact" id="contact">
+                <h2 class="heading">Contact <span>Me!</span></h2>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/kurtjasonapun"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/kurt.jasonn"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://www.tiktok.com/@kujayaa"><i class='bx bxl-tiktok'></i></a>
+                </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 By Kuja | All Right Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
